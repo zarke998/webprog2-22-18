@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,KADC,CACD,GAAG,CAAA;EACH,MAAM,EAAE,IAAI;CACX",
+    "sources": [
+        "myMain.scss"
+    ],
+    "names": [],
+    "file": "myMain.css"
+}
