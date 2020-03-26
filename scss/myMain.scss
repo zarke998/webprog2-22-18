@@ -1,5 +1,40 @@
+$mainColor:#ff9a1e;
+
 #logo{
     img{
     height: 50px;
     }
+}
+
+#categoryList{
+    li{
+        a{
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+.sp-checkbox{
+    border-radius: 0px;
+}
+.filter-bar{
+    background-color: $mainColor;
+}
+.sidebar-categories .head{
+    background-color: $mainColor;
+}
+.top-filter-head{
+    background-color: $mainColor !important;
+}
+.paginationNumbers{
+    a{
+        &:hover{
+            cursor: pointer !important;
+        }
+    }
+}
+
+.clicked-link{
+    color: $mainColor !important;
 }

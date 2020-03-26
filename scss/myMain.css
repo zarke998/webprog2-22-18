@@ -1,4 +1,32 @@
 #logo img {
   height: 50px;
 }
+
+#categoryList li a:hover {
+  cursor: pointer;
+}
+
+.sp-checkbox {
+  border-radius: 0px;
+}
+
+.filter-bar {
+  background-color: #ff9a1e;
+}
+
+.sidebar-categories .head {
+  background-color: #ff9a1e;
+}
+
+.top-filter-head {
+  background-color: #ff9a1e !important;
+}
+
+.paginationNumbers a:hover {
+  cursor: pointer !important;
+}
+
+.clicked-link {
+  color: #ff9a1e !important;
+}
 /*# sourceMappingURL=myMain.css.map */

@@ -1,0 +1,253 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Explosion 8\" Complete Board",
+            "brand": {
+                "id": 1,
+                "name": "SK8DLX"
+            },
+            "img":{
+                "src": "/img/custom/products/sk8dlx-explosion-8.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8.0,
+                "deckLength": 31.5,
+                "truckHeight": 5.0,
+                "wheelbase": 14.0
+            },
+            "price": {
+                "oldPrice": 79.99,
+                "newPrice": 64.99
+            },
+            "colors" : [
+                {
+                    "id": 1,
+                    "name": "Multi",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Skateboards"
+            }
+        },
+        {
+            "id": 2,
+            "name": "CUBIX 7.5\" COMPLETE BOARD",
+            "brand": {
+                "id": 1,
+                "name": "SK8DLX"
+            },
+            "img":{
+                "src": "/img/custom/products/sk8dlx-cubix-7-5.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 7.5,
+                "deckLength": 31.25,
+                "truckHeight": 5.0,
+                "wheelbase": 13.875
+            },
+            "price": {
+                "oldPrice": 99.99
+            },
+            "colors" : [
+                {
+                    "id": 2,
+                    "name": "Rose",
+                    "hex": null
+                },
+                {
+                    "id": 3,
+                    "name": "Pink",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Skateboards"
+            }
+        },
+        {
+            "id": 3,
+            "name": "HALF DIP 2 8.25\" COMPLETE BOARD",
+            "brand": {
+                "id": 2,
+                "name": "GLOBE"
+            },
+            "img":{
+                "src": "/img/custom/products/globe-half-dip-2.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8.25,
+                "deckLength": 32,
+                "truckHeight": 5.5,
+                "wheelbase": 14.25
+            },
+            "price": {
+                "oldPrice": 119.99
+            },
+            "colors" : [
+                {
+                    "id": 4,
+                    "name": "Natural",
+                    "hex": null
+                },
+                {
+                    "id": 5,
+                    "name": "Pecan",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Skateboards"
+            }
+        },
+        {
+            "id": 4,
+            "name": "MOUNTAIN 8.125\" COMPLETE BOARD",
+            "brand": {
+                "id": 3,
+                "name": "INPEDDO"
+            },
+            "img":{
+                "src": "/img/custom/products/inpeddo-mountain.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8.125,
+                "deckLength": 32,
+                "truckHeight": 5.25,
+                "wheelbase": 14.25
+            },
+            "price": {
+                "oldPrice": 129.99,
+                "newPrice": 109.99
+            },
+            "colors" : [
+                {
+                    "id": 6,
+                    "name": "Red",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Skateboards"
+            }
+        },
+        {
+            "id": 5,
+            "name": "DINGHY 28.5\" (72,4CM) CRUISER",
+            "brand": {
+                "id": 4,
+                "name": "LANDYACHTZ"
+            },
+            "img":{
+                "src": "/img/custom/products/landyachtz-dinghy.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8,
+                "deckLength": 28.5,
+                "truckHeight": null,
+                "wheelbase": 14.7
+            },
+            "price": {
+                "oldPrice": 145.99,
+                "newPrice": 129.99
+            },
+            "colors" : [
+                {
+                    "id": 7,
+                    "name": "Purple",
+                    "hex": null
+                },
+                {
+                    "id": 8,
+                    "name": "Blue",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Cruisers"
+            }
+        },
+        {
+            "id": 6,
+            "name": "TAN TIEN V3 39\" (99CM) COMPLETE-LONGBOARD",
+            "brand": {
+                "id": 5,
+                "name": "LOADED"
+            },
+            "img":{
+                "src": "/img/custom/products/loaded-tan-tien.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8.6,
+                "deckLength": 39,
+                "truckHeight": null,
+                "wheelbase": 30
+            },
+            "price": {
+                "oldPrice": 329.99,
+                "newPrice": 299.99
+            },
+            "colors" : [
+                {
+                    "id": 9,
+                    "name": "Brown",
+                    "hex": null
+                },
+                {
+                    "id": 10,
+                    "name": "Yellow",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Longboards"
+            }
+        },
+        {
+            "id": 7,
+            "name": "WAVE DOT 27.7\" (70,4CM) CRUISER (MULTI)",
+            "brand": {
+                "id": 6,
+                "name": "SANTA CRUZ"
+            },
+            "img":{
+                "src": "/img/custom/products/santa-cruz-wave-dot.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8.8,
+                "deckLength": 27.7,
+                "truckHeight": 8,
+                "wheelbase": 16.5
+            },
+            "price": {
+                "oldPrice": 159.99,
+                "newPrice": 139.99
+            },
+            "colors" : [
+                {
+                    "id": 1,
+                    "name": "Multi",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Cruiser"
+            }
+        }
+    ]
+}
