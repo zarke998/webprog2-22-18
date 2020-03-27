@@ -10,7 +10,7 @@
                 "name": "SK8DLX"
             },
             "img":{
-                "src": "/img/custom/products/sk8dlx-explosion-8.png",
+                "src": "img/custom/products/sk8dlx-explosion-8.png",
                 "alt": "Product image"
             },
             "specifications": {
@@ -45,7 +45,7 @@
                 "name": "SK8DLX"
             },
             "img":{
-                "src": "/img/custom/products/sk8dlx-cubix-7-5.png",
+                "src": "img/custom/products/sk8dlx-cubix-7-5.png",
                 "alt": "Product image"
             },
             "specifications": {
@@ -84,7 +84,7 @@
                 "name": "GLOBE"
             },
             "img":{
-                "src": "/img/custom/products/globe-half-dip-2.png",
+                "src": "img/custom/products/globe-half-dip-2.png",
                 "alt": "Product image"
             },
             "specifications": {
@@ -123,7 +123,7 @@
                 "name": "INPEDDO"
             },
             "img":{
-                "src": "/img/custom/products/inpeddo-mountain.png",
+                "src": "img/custom/products/inpeddo-mountain.png",
                 "alt": "Product image"
             },
             "specifications": {
@@ -158,7 +158,7 @@
                 "name": "LANDYACHTZ"
             },
             "img":{
-                "src": "/img/custom/products/landyachtz-dinghy.png",
+                "src": "img/custom/products/landyachtz-dinghy.png",
                 "alt": "Product image"
             },
             "specifications": {
@@ -198,7 +198,7 @@
                 "name": "LOADED"
             },
             "img":{
-                "src": "/img/custom/products/loaded-tan-tien.png",
+                "src": "img/custom/products/loaded-tan-tien.png",
                 "alt": "Product image"
             },
             "specifications": {
@@ -238,7 +238,7 @@
                 "name": "SANTA CRUZ"
             },
             "img":{
-                "src": "/img/custom/products/santa-cruz-wave-dot.png",
+                "src": "img/custom/products/santa-cruz-wave-dot.png",
                 "alt": "Product image"
             },
             "specifications": {
@@ -273,7 +273,7 @@
                 "name": "SK8DLX"
             },
             "img":{
-                "src": "/img/custom/products/sk8dlx-linus.png",
+                "src": "img/custom/products/sk8dlx-linus.png",
                 "alt": "Product image"
             },
             "specifications": {
