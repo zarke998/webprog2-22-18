@@ -52,8 +52,8 @@
 						<ul class="nav navbar-nav menu_nav ml-auto">
 							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
-							<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
 							<li class="nav-item"><a class="nav-link" href="documentation.pdf">Documentation</a></li>
 							<li class="nav-item"><a href="cart.html" class="nav-link cart"><span class="ti-bag"></span></a></li>
 						</ul>
@@ -80,10 +80,10 @@
 		<div class="container">
 			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
 				<div class="col-first">
-					<h1>Contact Us</h1>
+					<h1>About</h1>
 					<nav class="d-flex align-items-center">
 						<a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-						<a href="contact.html">Contact</a>
+						<a href="about.html">About</a>
 					</nav>
 				</div>
 			</div>
@@ -91,59 +91,44 @@
 	</section>
 	<!-- End Banner Area -->
 
-	<!--================Contact Area =================-->
+	<!--================About Area =================-->
 	<section class="contact_area section_gap_bottom">
-		<div class="container">
-			<iframe id="googleMapsContainer" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.34156895482!2d20.482635452935327!3d44.81460565175362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2sICT%20College!5e0!3m2!1sen!2srs!4v1585321692199!5m2!1sen!2srs" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
+		<div class="container py-4">
+			<h1 class="text-center mb-5">About</h1>
 			<div class="row">
-				<div class="col-lg-3">
-					<div class="contact_info">
-						<div class="info_item">
-							<i class="lnr lnr-home"></i>
-							<h6>Belgrade, Serbia</h6>
-							<p>Zdravka Čelara 16</p>
+				<div class="col-lg-8 mb-5 px-3 px-sm-5">
+					<div class="row">
+						<div id="profileImageContainer" class=" col-6 offset-3 col-md-3 offset-md-0 mb-4">
+							<img id="profileImage" src="img/custom/profile.jpg" alt="Profile image" class="w-100">
 						</div>
-						<div class="info_item">
-							<i class="lnr lnr-phone-handset"></i>
-							<h6><a href="#">064 1234567</a></h6>
-							<p>Mon to Fri 9am to 8 pm</p>
-						</div>
-						<div class="info_item">
-							<i class="lnr lnr-envelope"></i>
-							<h6><a href="#">zarke998@gmail.com</a></h6>
-							<p>Email us anytime!</p>
+						<div id="aboutInfo" class="col-md-9 text-center text-sm-left">
+							<p>My name is Andrej Zarkovski. I'm studying web programming at "Visoka ICT Škola" in Belgrade. In my early childhood I was very interested in how computers work and I continued to learn more about them. Now I am pursuing career in computer programming. I love japanese culture and I love playing video games.
+
+							</p>
+							<ul>
+								<li class="mb-2">Github: <a href="https://github.com/zarke998" target="_blank">github.com/zarke998</a></li>
+								<li class="mb-2">Portfolio: <a href="https://zarke998.github.io/web-portfolio" target="_blank">zarke998.github.io/web-portfolio</a></li>
+								<li class="mb-2">LinkedIn: <a href="https://linkedin.com/in/andrej-zarkovski-01b8a4188" target="_blank">linkedin.com/in/andrej-zarkovski-01b8a4188</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-9">
-					<form class="row contact_form" id="contactForm" onsubmit="return validateContact()" novalidate="novalidate">
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" id="contactName" name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'">
-							</div>
-							<div class="form-group">
-								<input type="email" class="form-control" id="contactEmail" name="email" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'">
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" id="contactSubject" name="subject" placeholder="Enter Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'">
-							</div>
+				<div id="businessContainer" class="col-md-8 offset-md-2 col-lg-4 offset-lg-0 px-4">
+					<h3 class="text-center mb-4">Business inquiry</h3>
+					<form onsubmit="return validateBusinessForm()">
+						<div class="form-group border-0 mb-3">
+							<input type="email" class="form-control border-0 rounded-0" id="businessEmail" aria-describedby="emailHelp" placeholder="Enter email">
 						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<textarea class="form-control" name="message" id="contactMessage" rows="1" placeholder="Enter Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"></textarea>
-							</div>
-						</div>
-						<div class="col-md-12 text-right">
-							<div id="contactError"></div>
-							<button type="submit" value="submit" class="primary-btn">Send Message</button>
-						</div>
+						<textarea id="businessMessage" name="description" class="w-100 h-input-text p-2" rows="4" placeholder="Message..."></textarea>
+						<!-- <div id="businessFeedback" class="invalid-feedback d-none"></div> -->
+						<div id="businessError"class="info error"></div>
+						<button id="businessBtn" type="submit" class="d-block mx-auto w-25 mt-4 ht-btn primary-btn">Send</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--================Contact Area =================-->
+	<!--================About Area =================-->
 
 	<!-- start footer Area -->
 	<footer class="footer-area pb-1">
@@ -273,7 +258,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/main.js"></script>
 
 	<script src="js/custom/main.js"></script>
-	<script src="js/custom/contact.js"></script>
+	<script src="js/custom/about.js"></script>
 </body>
 
 </html>

@@ -21,8 +21,10 @@ $(document).ready(function () {
     $(".pagination .arrow").click(changeProductPage);
     $(".sortSelect").change(sortProducts);
     $("#search_input").change(filterBySearch);
+
+    loadDealsOfWeek();
 });
-// EVENTS
+///////////////////////////////////////////////////////////////////////////////////////////EVENTS
 function onProductsReceived(products) {
     let filtered = applyProductFilters(products);
     loadProductsIntoCache(filtered);
@@ -183,7 +185,7 @@ function filterBySearch(){
     searchString = $(this).val();
     getJsonProducts(onProductsReceived);
 }
-// FUNCTIONS
+///////////////////////////////////////////////////////////////////////////////////////////FUNCTIONS
 function initializeShop() {
     getJsonProducts(function (products) {
 
@@ -443,6 +445,58 @@ function applySearchFilter(products, search){
     return products.filter(p => {
         return p.title.toLowerCase().includes(search.toLowerCase());
     });
+}
+function getProductsArray(products) {
+    let productsCache = [];
+    products.forEach(p => {
+        let prod = new Product(p.id, `${p.name} - ${p.brand.name}`,p.description, p.dateReleased, p.img, p.specifications.deckWidth, p.specifications.deckLength, p.specifications.truckHeight, p.specifications.wheelbase, p.price);
+        productsCache.push(prod);
+    });
+
+    return productsCache;
+}
+            //DEALS OF WEEK
+function loadDealsOfWeek(){
+    getJsonProducts(function(products){
+        let discountedProducts = products
+        .filter(p => {
+            return p.price.newPrice != null;
+        });
+
+        discountedProducts = getProductsArray(discountedProducts.slice(0,6));
+
+        let $list = $("#dealsOfWeekList");
+        $list.html("");
+
+        discountedProducts.forEach(p => {
+            $list.append(createDealOfWeekItem(p));
+        });
+    });
+}
+function createDealOfWeekItem(product){
+    let $itemContainer = $(`<div class="col-lg-4 col-md-4 col-sm-6 mb-20"></div>`);
+    let itemContent = `
+    <div class="single-related-product d-flex">
+        <a href="shop.html"><img src="${product.image.src}" alt="${product.image.alt}"></a>
+        <div class="desc">
+            <a href="shop.html" class="title">${product.title}</a>
+            <div class="price">
+                ${getPricesMarkup(product.price)}
+            </div>
+        </div>
+    </div>`;
+
+    $itemContainer.html(itemContent);
+    return $itemContainer;
+}
+function getPricesMarkup(price) {
+    if (price.newPrice != null) {
+        return `<h6>$${price.newPrice}</h6>
+            <h6 class="l-through">$${price.oldPrice}</h6>`;
+    }
+    else {
+        return `<h6>$${price.oldPrice}</h6>`;
+    }
 }
 
 function getJsonProducts(callbackSuccess, callbackError) {
