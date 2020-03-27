@@ -501,7 +501,7 @@ function getPricesMarkup(price) {
 
 function getJsonProducts(callbackSuccess, callbackError) {
     $.ajax({
-        url: "/data/data.json",
+        url: "data/data.json",
         method: "GET",
         dataType: "json",
         success: function (data) {
