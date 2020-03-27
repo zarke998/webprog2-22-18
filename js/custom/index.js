@@ -280,7 +280,7 @@ function getJsonProducts(callbackSuccess, callbackError, async) {
         ajaxAsync = async;
 
     $.ajax({
-        url: "/data/data.json",
+        url: "data/data.json",
         method: "GET",
         async: ajaxAsync,
         dataType: "json",
