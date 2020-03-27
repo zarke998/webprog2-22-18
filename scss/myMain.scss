@@ -34,7 +34,64 @@ $mainColor:#ff9a1e;
         }
     }
 }
-
 .clicked-link{
     color: $mainColor !important;
+}
+
+#introSlider{
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+.introSliderItem{
+    .banner-img{
+        img{
+            width: 60%;
+        }
+    }
+}
+#dealsOfWeekList{
+    .single-related-product{
+        img{
+            width: 70px;
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    #latestProductsList{
+        .single-product{
+            img{
+                width: auto !important;
+                height: 400px !important;
+                margin: 0px auto;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    #budgetProductsList{
+        .single-product{
+            img{
+                width: auto !important;
+                height: 400px !important;
+                margin: 0px auto;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    #exclusiveProductsList{
+        img{
+            height: 400px; 
+            width: auto;  
+        }
+    }
+    .single-exclusive-slider{
+        padding-bottom: 0px !important;
+    }
+    #brandsLogoList{
+        a:last-child{
+            img{
+                width: 50%;
+            }
+        }
+    }
 }

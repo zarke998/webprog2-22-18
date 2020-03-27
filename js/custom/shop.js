@@ -212,7 +212,7 @@ function initializePagination(numOfProducts) {
 function loadProductsIntoCache(products) {
     productsCache = [];
     products.forEach(p => {
-        let prod = new Product(p.id, `${p.name} - ${p.brand.name}`, p.img, p.specifications.deckWidth, p.specifications.deckLength, p.specifications.truckHeight, p.specifications.wheelbase, p.price);
+        let prod = new Product(p.id, `${p.name} - ${p.brand.name}`,p.description, p.dateReleased, p.img, p.specifications.deckWidth, p.specifications.deckLength, p.specifications.truckHeight, p.specifications.wheelbase, p.price);
         productsCache.push(prod);
     });
 }

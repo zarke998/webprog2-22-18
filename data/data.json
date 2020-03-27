@@ -3,6 +3,8 @@
         {
             "id": 1,
             "name": "Explosion 8\" Complete Board",
+            "description": "Very good board for beginners and those who are coming back to skating. Has a medium concave for optimup deck control, 100A wheel hardness so you glide smoothly, and a familiar 8\" deck width.",
+            "dateReleased": "2020-03-09",
             "brand": {
                 "id": 1,
                 "name": "SK8DLX"
@@ -36,6 +38,8 @@
         {
             "id": 2,
             "name": "CUBIX 7.5\" COMPLETE BOARD",
+            "description": "Complete board for experienced skaters with narrow deck width for easy flip tricks and hard wheels for perfect pole grinds. The best buy for intermediate to experienced skaters. ",
+            "dateReleased": "2020-03-17",
             "brand": {
                 "id": 1,
                 "name": "SK8DLX"
@@ -73,6 +77,8 @@
         {
             "id": 3,
             "name": "HALF DIP 2 8.25\" COMPLETE BOARD",
+            "description": null,
+            "dateReleased": "2020-03-10",
             "brand": {
                 "id": 2,
                 "name": "GLOBE"
@@ -110,6 +116,8 @@
         {
             "id": 4,
             "name": "MOUNTAIN 8.125\" COMPLETE BOARD",
+            "description": null,
+            "dateReleased": "2020-03-22",
             "brand": {
                 "id": 3,
                 "name": "INPEDDO"
@@ -143,6 +151,8 @@
         {
             "id": 5,
             "name": "DINGHY 28.5\" (72,4CM) CRUISER",
+            "description": null,
+            "dateReleased": "2020-03-06",
             "brand": {
                 "id": 4,
                 "name": "LANDYACHTZ"
@@ -181,6 +191,8 @@
         {
             "id": 6,
             "name": "TAN TIEN V3 39\" (99CM) COMPLETE-LONGBOARD",
+            "description": null,
+            "dateReleased": "2020-03-26",
             "brand": {
                 "id": 5,
                 "name": "LOADED"
@@ -219,6 +231,8 @@
         {
             "id": 7,
             "name": "WAVE DOT 27.7\" (70,4CM) CRUISER (MULTI)",
+            "description": null,
+            "dateReleased": "2020-03-13",
             "brand": {
                 "id": 6,
                 "name": "SANTA CRUZ"
@@ -247,6 +261,41 @@
             "category": {
                 "id": 2,
                 "name": "Cruiser"
+            }
+        },
+        {
+            "id": 8,
+            "name": "LINUS 8.125\" COMPLETE-BOARD (MULTI)",
+            "description": "Skateboard meant for serious skaters. With a super grippy tape, this skateboard is meant for precise tricks. 52mm wheels provide optimal stability during grinds and tricks and they're made of highly resistant material.",
+            "dateReleased": "2020-03-26",
+            "brand": {
+                "id": 1,
+                "name": "SK8DLX"
+            },
+            "img":{
+                "src": "/img/custom/products/sk8dlx-linus.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8.125,
+                "deckLength": 32,
+                "truckHeight": 5.5,
+                "wheelbase": null
+            },
+            "price": {
+                "oldPrice": 199.99,
+                "newPrice": 179.99
+            },
+            "colors" : [
+                {
+                    "id": 1,
+                    "name": "Multi",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Skateboards"
             }
         }
     ]
