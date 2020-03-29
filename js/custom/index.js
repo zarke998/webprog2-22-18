@@ -33,6 +33,9 @@ function loadIntroSlider(){
             navText:["<img src='img/banner/prev.png'>","<img src='img/banner/next.png'>"],
             dots:false
         });
+
+        $(".addToCart").off("click");
+        $(".addToCart").on("click",addToCart);
     });
 }
 function loadEmbedShop(){
@@ -47,6 +50,9 @@ function loadEmbedShop(){
         navText:["<img src='img/product/prev.png'>","<img src='img/product/next.png'>"],
         dots:false
     });
+
+    $(".addToCart").off("click");
+    $(".addToCart").on("click",addToCart);
 }
 function loadLatestProducts(){
     getJsonProducts(function(products){
@@ -133,6 +139,9 @@ function loadExclusiveDeals(){
             navText:["<img src='img/product/prev.png'>","<img src='img/product/next.png'>"],
             dots:false
         });
+        
+        $(".addToCart").off("click");
+        $(".addToCart").on("click",addToCart);;
 
     });
 }
@@ -190,7 +199,7 @@ function createSliderItem(product){
                 <h1>${product.title}</h1>
                 <p>${product.description}</p>
                 <div class="add-bag d-flex align-items-center">
-                    <a data-id="${product.id}" class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
+                    <a data-id="${product.id}" class="add-btn addToCart" href="index.html"><span class="lnr lnr-cross"></span></a>
                     <span class="add-text text-uppercase">Add to Bag</span>
                 </div>
             </div>
@@ -217,7 +226,7 @@ function createEmbedShopItem(product){
                     ${getPricesMarkup(product.price)}
                 </div>
                 <div class="prd-bottom mt-0">
-                    <a data-id="${product.id}"href="" class="social-info">
+                    <a data-id="${product.id}" href="#" class="social-info addToCart">
                         <span class="ti-bag"></span>
                         <p class="hover-text">add to bag</p>
                     </a>
@@ -239,7 +248,7 @@ function createExclusiveListItem(product){
         </div>
         <h4>${product.title}</h4>
         <div class="add-bag d-flex align-items-center justify-content-center">
-            <a data-id="${product.id}" class="add-btn" href=""><span class="ti-bag"></span></a>
+            <a data-id="${product.id}" class="add-btn addToCart" href="#"><span class="ti-bag"></span></a>
             <span class="add-text text-uppercase">Add to Bag</span>
         </div>
     </div>`;

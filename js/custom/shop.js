@@ -224,7 +224,7 @@ function populateList(products) {
     products.forEach(p => {
         $list.append(createProductMarkup(p));
     });
-
+    $(".addToCart").click(addToCart);
 }
 function populateCategories(products) {
     let categories = [];

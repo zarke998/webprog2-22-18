@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("#newsletterSignup").click(validateNewsletter);
+    
 });
 
 function validateNewsletter(){
@@ -24,4 +25,46 @@ function validateNewsletter(){
     }
 
     alert("Sign up successful.");
+}
+
+function addToCart(e){
+    e.preventDefault();
+
+    let productId = parseInt(this.dataset.id);
+
+    if(localStorage){
+        let cart = localStorage.getItem("cart");
+        if(cart){
+            cart = JSON.parse(cart);
+            let currentItem = cart.find(p => p.id == productId);
+
+            if(typeof currentItem == "undefined"){
+                currentItem = {
+                    id: productId,
+                    quantity: 1
+                };
+                cart.push(currentItem);
+            }
+            else{
+                currentItem.quantity++;
+            }
+            let json = JSON.stringify(cart);
+            localStorage.setItem("cart", json);
+        }
+        else{
+            cart = [
+                {
+                    id: productId,
+                    quantity: 1 
+                }
+            ];
+            let json = JSON.stringify(cart);
+            localStorage.setItem("cart", json);
+        }
+
+        alert("Product added to cart.");
+    }
+    else{
+        alert("Error adding product to bag. Your system doesn't support local storage.");
+    }
 }

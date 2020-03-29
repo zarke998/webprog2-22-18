@@ -92,6 +92,17 @@ $mainColor:#ff9a1e;
     border-radius: 0px;
     padding: 0px;
 }
+.cartProductItem{
+    img{
+        width: 75px;
+    }
+}
+// #checkoutBtn{
+//     width: 300px;
+//     div{
+//         margin-left: 0px;
+//     }
+// }
 @media only screen and (max-width:992px){
     .navbar-right{
         display: none;

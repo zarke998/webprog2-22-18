@@ -297,6 +297,236 @@
                 "id": 1,
                 "name": "Skateboards"
             }
+        },
+        {
+            "id": 9,
+            "name": "FATTAIL 38\" (96CM) COMPLETE-LONGBOARD BOLZEN SETUP",
+            "description": null,
+            "dateReleased": "2020-03-21",
+            "brand": {
+                "id": 5,
+                "name": "LOADED"
+            },
+            "img":{
+                "src": "img/custom/products/loaded-fattail.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8.6,
+                "deckLength": 38,
+                "truckHeight": 7,
+                "wheelbase": null
+            },
+            "price": {
+                "oldPrice": 299.99,
+                "newPrice": null
+            },
+            "colors" : [
+                {
+                    "id": 4,
+                    "name": "Natural",
+                    "hex": null
+                },
+                {
+                    "id": 7,
+                    "name": "Purple",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Longboards"
+            }
+        },
+        {
+            "id": 10,
+            "name": "BLAZER 26\" (66CM) CRUISER (WALNUT)",
+            "description": null,
+            "dateReleased": "2020-03-29",
+            "brand": {
+                "id": 2,
+                "name": "GLOBE"
+            },
+            "img":{
+                "src": "img/custom/products/globe-blazer.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 7.2,
+                "deckLength": 26,
+                "truckHeight": 4.25,
+                "wheelbase": 13.7
+            },
+            "price": {
+                "oldPrice": 149.99,
+                "newPrice": null
+            },
+            "colors" : [
+                {
+                    "id": 9,
+                    "name": "Brown",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Cruisers"
+            }
+        },
+        {
+            "id": 11,
+            "name": "CLASSIC DOT 8\" COMPLETE-BOARD (BLACK RED)",
+            "description": null,
+            "dateReleased": "2020-03-28",
+            "brand": {
+                "id": 6,
+                "name": "SANTA CRUZ"
+            },
+            "img":{
+                "src": "img/custom/products/santa-cruz-classic-dot.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8,
+                "deckLength": 31.625,
+                "truckHeight": 5,
+                "wheelbase": 14.25
+            },
+            "price": {
+                "oldPrice": 99.99,
+                "newPrice": null
+            },
+            "colors" : [
+                {
+                    "id": 6,
+                    "name": "Red",
+                    "hex": null
+                },
+                {
+                    "id": 11,
+                    "name": "Black",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Skateboards"
+            }
+        },
+        {
+            "id": 12,
+            "name": "GANG LOGO 8\" COMPLETE-BOARD (BLACK RED)",
+            "description": null,
+            "dateReleased": "2020-03-27",
+            "brand": {
+                "id": 7,
+                "name": "DEATHWISH"
+            },
+            "img":{
+                "src": "img/custom/products/deathwish-gang-logo.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8,
+                "deckLength": 31.625,
+                "truckHeight": 5.25,
+                "wheelbase": 14.375
+            },
+            "price": {
+                "oldPrice": 129.99,
+                "newPrice": null
+            },
+            "colors" : [
+                {
+                    "id": 6,
+                    "name": "Red",
+                    "hex": null
+                },
+                {
+                    "id": 11,
+                    "name": "Black",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Skateboards"
+            }
+        },
+        {
+            "id": 13,
+            "name": "TYPHOON 8\" COMPLETE-BOARD (YELLOW)",
+            "description": null,
+            "dateReleased": "2020-03-26",
+            "brand": {
+                "id": 2,
+                "name": "GLOBE"
+            },
+            "img":{
+                "src": "img/custom/products/globe-typhoon.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8,
+                "deckLength": 31.63,
+                "truckHeight": 5.25,
+                "wheelbase": 14
+            },
+            "price": {
+                "oldPrice": 119.99,
+                "newPrice": null
+            },
+            "colors" : [
+                {
+                    "id": 9,
+                    "name": "Brown",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Skateboards"
+            }
+        },
+        {
+            "id": 14,
+            "name": "SUPERCOLOR 8.125\" COMPLETE-BOARD (BLACK POND)",
+            "description": null,
+            "dateReleased": "2020-03-25",
+            "brand": {
+                "id": 2,
+                "name": "GLOBE"
+            },
+            "img":{
+                "src": "img/custom/products/globe-supercolor.png",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8.125,
+                "deckLength": 31.875,
+                "truckHeight": 5.25,
+                "wheelbase": 14.25
+            },
+            "price": {
+                "oldPrice": 89.99,
+                "newPrice": null
+            },
+            "colors" : [
+                {
+                    "id": 11,
+                    "name": "Black",
+                    "hex": null
+                },
+                {
+                    "id": 1,
+                    "name": "Multicolor",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Skateboards"
+            }
         }
     ]
 }
